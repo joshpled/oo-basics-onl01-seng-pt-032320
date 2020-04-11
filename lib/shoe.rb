@@ -4,6 +4,8 @@ class Shoe
   def initialize(brand)
    @brand = brand
  end
+ def cobble=(cobble)
+   @cobble = cobble
  def cobble
    @material = "new" unless @material = "new"
    puts "Your shoe is as good as new!"
