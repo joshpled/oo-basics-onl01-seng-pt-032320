@@ -5,7 +5,7 @@ class Shoe
    @brand = brand
  end
  def cobble
-   @material = "new" unless @material.include? "new"
+   @condition = "new" unless @condition.include? "new"
    puts "Your shoe is as good as new!"
  end
 end
